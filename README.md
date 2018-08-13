@@ -15,12 +15,21 @@ git clone https://github.com/hazemkhaledmohamed/ITEM_CATALOG
 * then run **APP.py**:full_moon: to run the server with home address **https://localhost:5000** with port 5000
 
 # files contained in the project:seedling:
-* ##**APP.py**:full_moon: this file contains tha whole app along with initializing the server 
-* **Fake_Items.py**:waning_gibbous_moon: this file initialize the database with some data to load to the server
-* **Database_Setup.py**:last_quarter_moon: this file has the properties of serializing data to JSON format to be loaded to API endpoing 
-* **ca.crt**:waning_crescent_moon: certificate file to install Https with the server 
-* **ca.key**:new_moon: key file for certificate installation 
-* **client_secrets.json**:earth_asia: Json file for google authentication with users in order to get token for each user while the server is running 
-* **fb_client_secrets.json**:milky_way: Json file for google authentication 
+* **APP.py**:full_moon: this file contains tha whole app along with initializing the server 
+this file contain the implementation of many features:gift: in the app such as CRUD functionality:palm_tree: (crate, Read, Update, Delete) elements form database with SQLAlchemy(ORM) package with python also this file contain decorator pattern:ear_of_rice: for each Url functionality such as this one for home page ```https://localhost:5000/```:mortar_board: also this file call the template files along with our project while running:tada: and render it's content to user Browser then this file implement the authentication :lock:for user want to connect to our app and specify authority:key: for each user according to his items which will enable him to add his own item and modify and delete it but not deleting other users items
+,also this file has the API endpoint:electric_plug: which call the user's items in JSON form to allow other services or Developpers to build their app based on this API:bath:.
 
-#file
+* **Fake_Items.py**:waning_gibbous_moon: this file initialize the database with some data to load to the server
+
+* **Database_Setup.py**:last_quarter_moon: this file initializes:syringe: the data base tables and couloums with it's names and relations:scroll: which has the properties of serializing data to JSON format to be loaded to API endpoint:mailbox_closed:. 
+
+* **ca.crt**:waning_crescent_moon: certificate file to install Https with the server:lock_with_ink_pen:. 
+
+* **ca.key**:new_moon: key file for certificate installation:closed_lock_with_key:.
+
+* **client_secrets.json**:earth_asia: Json file for google authentication with users in order to get token for each user while the 
+server is running:trumpet:.
+
+* **fb_client_secrets.json**:milky_way: Json file for google authentication:saxophone:.
+
+* **ItemsCatalogWithUsers.db**this file shouldn't be here:bookmark: but for testing your code without any misterious problems you can use it as is.
