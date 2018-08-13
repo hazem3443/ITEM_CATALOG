@@ -40,3 +40,9 @@ Json file for google authentication:saxophone:.
 
 * ## **ItemsCatalogWithUsers.db**
 this file shouldn't be here:bookmark: but for testing your code without any misterious problems you can use it as is.
+
+* ## **static**:skull:
+this folder contain the styles.css file which has the styles for each component on the page also has the buttons style:snake: contained for each button in the website.
+
+* ## **template**:zap:
+this folder contain all website templates that loaded into python code for render it's data contined with appropriate URI entered:trollface:.
