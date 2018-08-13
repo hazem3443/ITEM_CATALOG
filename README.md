@@ -15,7 +15,7 @@ git clone https://github.com/hazemkhaledmohamed/ITEM_CATALOG
 * then run **APP.py**:full_moon: to run the server with home address **https://localhost:5000** with port 5000
 
 # files contained in the project:seedling:
-* **APP.py**:full_moon: this file contains tha whole app along with initializing the server 
+* ##**APP.py**:full_moon: this file contains tha whole app along with initializing the server 
 * **Fake_Items.py**:waning_gibbous_moon: this file initialize the database with some data to load to the server
 * **Database_Setup.py**:last_quarter_moon: this file has the properties of serializing data to JSON format to be loaded to API endpoing 
 * **ca.crt**:waning_crescent_moon: certificate file to install Https with the server 
@@ -23,4 +23,4 @@ git clone https://github.com/hazemkhaledmohamed/ITEM_CATALOG
 * **client_secrets.json**:earth_asia: Json file for google authentication with users in order to get token for each user while the server is running 
 * **fb_client_secrets.json**:milky_way: Json file for google authentication 
 
-this file is
+#file
