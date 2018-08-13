@@ -27,11 +27,13 @@ this file initialize the database with some data to load to the server
 this file initializes:syringe: the data base tables and couloums with it's names and relations:scroll: which has the properties of serializing data to JSON format to be loaded to API endpoint:mailbox_closed:. 
 
 * ## **ca.crt**:waning_crescent_moon: 
-certificate file to install Https with the server:lock_with_ink_pen:. 
+certificate file to install Https with the server:lock_with_ink_pen: with **ssl_context** attribute this specify both files the ca.crt and the ca.key which include the certificate and key for the server to communicate with client via Https request also this file is generated via OpenSSL.
 
 * ## **ca.key**:new_moon: 
-key file for certificate installation:closed_lock_with_key:.
+key file for certificate installation:closed_lock_with_key:,this file is generated via OpenSSL.
 
+**notice**
+here we use these two files to install certificate for our website in order to be used with 3rd party Oauth to authenticate facebook users via a secured **https** request
 * ## **client_secrets.json**:earth_asia: 
 Json file for google authentication with users in order to get token for each user while the server is running:trumpet:.
 
