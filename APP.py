@@ -8,7 +8,7 @@ import httplib2
 import requests
 import os
 # import database model
-from database_setup import Base, Category, CategoryItem, User
+from Database_Setup import Base, Category, CategoryItem, User
 # import ORM packages
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
