@@ -2,7 +2,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 # import the setub file to load tables in order to write data
-from database_setup import Category, CategoryItem, User, Base
+from Database_Setup import Category, CategoryItem, User, Base
 # call the sqlite database file
 engine = create_engine('sqlite:///ItemsCatalogWithUsers.db')
 
